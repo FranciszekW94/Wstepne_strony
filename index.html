@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Bilans — osobisty dziennik codziennych wydatków.">
+  <title>Bilans — Twoje pieniądze, po swojemu</title>
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<nav class="navbar navbar-expand-md site-nav" aria-label="Nawigacja główna">
+  <div class="container"><a class="navbar-brand" href="index.html"><span class="brand-mark">b</span> bilans</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Otwórz menu"><span class="navbar-toggler-icon"></span></button>
+    <div class="collapse navbar-collapse" id="mainNav"><ul class="navbar-nav ms-auto align-items-md-center">
+      <li class="nav-item"><a class="nav-link" href="index.html">Początek</a></li><li class="nav-item"><a class="nav-link" href="add-expense.html">Dodaj wydatek</a></li><li class="nav-item"><a class="nav-link" href="balance.html">Mój bilans</a></li><li class="nav-item"><a class="nav-link" href="login.html">Logowanie</a></li><li class="nav-item"><a class="nav-link nav-cta" href="register.html">Załóż konto</a></li>
+    </ul></div>
+  </div>
+</nav>
+<main class="page-shell">
+  <section class="hero">
+    <div class="hero-copy"><p class="eyebrow">Pieniądze bez wielkich słów</p><h1>Codzienność ma<br>swój <em>bilans.</em></h1><p class="lede mt-4">Małe zakupy, ważne plany, zwykłe „gdzie to się rozeszło?”. Zapisuj wydatki i zobacz swoje pieniądze takim, jakie są — po ludzku.</p>
+      <div class="d-flex flex-wrap gap-3 mt-4"><a class="btn btn-bilans" href="add-expense.html">Zapisz wydatek <span aria-hidden="true">→</span></a><a class="btn btn-outline-bilans" href="balance.html">Zobacz przykładowy bilans</a></div>
+    </div>
+    <div class="hero-art" aria-label="Plan oszczędności na wyprawę w góry"><div class="hero-blob"></div><img src="assets/images/cel-gory.jpg" alt="Górskie jezioro otoczone zielonymi szczytami"><div class="goal-note"><small>Mały plan na później</small><strong>W góry, bez pośpiechu</strong><div class="progress-track" aria-label="64 procent celu"><span></span></div><small class="mt-2">1 280 zł z 2 000 zł</small></div></div>
+  </section>
+  <section class="welcome-strip"><div><strong>To nie konkurs na idealny budżet.</strong><p>Zacznij od tego, co chcesz zrozumieć. Reszta przyjdzie z czasem.</p></div><a class="text-link" href="register.html">Stwórz swoją przestrzeń →</a></section>
+  <section aria-labelledby="start-heading"><div class="section-head"><div><p class="eyebrow">Twoje miejsce, twoje tempo</p><h2 id="start-heading" class="mb-0">Od czego dziś zaczniesz?</h2></div></div>
+    <div class="quick-grid">
+      <article class="quick-card"><p class="eyebrow">Jedna chwila wystarczy</p><h3>Wpisz to, co już wiesz.</h3><p class="mb-3">Kwota, kategoria, krótka notatka. Bez oceniania.</p><a href="add-expense.html">Dodaj pierwszy wydatek →</a></article>
+      <article class="quick-card"><p class="eyebrow">Spójrz z dystansu</p><h3>Znajdź swój rytm.</h3><p class="mb-3">Przykładowe zestawienie pokaże Ci układ bilansu.</p><a href="balance.html">Przejdź do bilansu →</a></article>
+    </div>
+  </section>
+  <section class="mt-5 pt-3"><div class="row g-4 align-items-center"><div class="col-md-7"><p class="eyebrow">Na co warto odkładać?</p><h2>Nie tylko na „kiedyś”.</h2><p class="lede">Czasem wystarczy mały, konkretny cel: rower, który znów wyciągnie Cię za miasto. Własny budżet ma służyć Twojemu życiu — nie odwrotnie.</p><a class="text-link" href="register.html">Zacznij prowadzić swój dziennik →</a></div><div class="col-md-5"><img class="img-fluid rounded-4" src="assets/images/cel-rower.jpg" alt="Rower oparty przy polnej drodze o poranku" style="height:230px;width:100%;object-fit:cover"></div></div></section>
+</main>
+<footer class="site-footer"><div class="footer-inner"><span>Bilans — osobisty dziennik pieniędzy.</span><span>Spokojnie. Po swojemu.</span></div></footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script><script src="script.js"></script>
+</body></html>
